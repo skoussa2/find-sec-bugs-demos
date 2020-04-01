@@ -458,7 +458,7 @@ public class EncodingLesson extends LessonAdapter
 
         try
         {
-            md = MessageDigest.getInstance("MD5");
+            md = MessageDigest.getInstance("SHA-256");
             md.update(b);
         } catch (NoSuchAlgorithmException e)
         {
